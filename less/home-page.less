@@ -9,7 +9,7 @@ header {
     align-items: flex-end;
   }
 
-  
+ 
   hr.new1{
     border: 1px dashed lightgray;
     margin: 2rem;
@@ -22,6 +22,14 @@ header {
     margin-right: 17rem;
   }
   
+  @media (max-width: 500px) {
+    header {
+      flex-direction: column;
+      align-items: center;
+      margin-left: 20px 0;
+      margin-bottom: 20px;
+    }
+  }
 }
 
 .header-image-text{
@@ -98,6 +106,10 @@ header {
     border-top: 2px dashed @navigation-border;
     display: flex;
     justify-content: space-between;
+
+      .btn{
+        .btn;
+      }
 
     .destination {
       width: 30%;
